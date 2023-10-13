@@ -1,0 +1,6 @@
+{
+    "name": "mateus.campos/matrix",
+    "require": {
+        "mpdf/mpdf": "^6.1"
+    }
+}
