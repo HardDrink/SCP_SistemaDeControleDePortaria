@@ -1,10 +1,10 @@
 <?php
 include("/xampp/htdocs/Codigos/matrix-copia/config/config.php");
 
-class Listaramais 
+class Empilhadeiras 
 {
     private static $conn;
-
+    
     public static function getInstance()
     {
         if (empty(self::$conn))
@@ -18,12 +18,29 @@ class Listaramais
 
     public static function all()
     {
-        $conn = self::getInstance();
 
-        $sql = "SELECT * FROM telefones ORDER BY nome";
-        $result = $conn->query($sql);
+    }
 
-        return $result->fetchALL();
+    public static function edit($id)
+    {
+
+
+    }
+
+    public static function save($id)
+    {
+
+    }
+
+    public static function delete($id)
+    {
+
+
+    }
+
+    public static function hist($id)
+    {
+
     }
 }
 
