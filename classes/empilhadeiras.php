@@ -4,7 +4,7 @@ include("/xampp/htdocs/Codigos/matrix-copia/config/config.php");
 class Empilhadeiras 
 {
     private static $conn;
-    
+
     public static function getInstance()
     {
         if (empty(self::$conn))
@@ -18,32 +18,13 @@ class Empilhadeiras
 
     public static function all()
     {
+        $conn = self::getInstance();
 
-    }
+        $sql = "SELECT * FROM empilhadeiras ORDER BY id_emp";
 
-    public static function edit($id)
-    {
+        $result = $conn->query($sql);
 
-
-    }
-
-    public static function save($id)
-    {
-
-    }
-
-    public static function delete($id)
-    {
-
-
-    }
-
-    public static function hist($id)
-    {
-
+        return $result->fetchAll();
     }
 }
-
-
-
 ?>

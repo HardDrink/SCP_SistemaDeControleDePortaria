@@ -1,6 +1,7 @@
 <?php
 include_once('/xampp/htdocs/Codigos/matrix/config/config.php');
 include ('/xampp/htdocs/Codigos/matrix/config/protect.php');
+include ('/xampp/htdocs/Codigos/matrix-copia/classes/empilhadeiras.php');
 ?>
 
 <!DOCTYPE html>
@@ -69,14 +70,9 @@ include ('menulateral.php');
                                             </tr>
                                         </thead>
                                         <tbody>
-                                        <?php
-                                            $conn = new mysqli(HOST, USER, PASS, BASE);
-                                                
-                                                //puxa os dados do banco e armazena na variavel $result
-                                                $result = mysqli_query($conn, "SELECT * from empilhadeiras ORDER BY id_emp");
+                                        <?php                 
 
-                                                //filtra apenas as tabelas linkadas com a variavel $row
-                                                while ($row = mysqli_fetch_assoc($result))
+                                                foreach (Empilhadeiras::all() as $row) 
                                                 {
                                                     
                                                 //define as variaveis
