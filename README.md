@@ -3,7 +3,7 @@ Sistema de controle de portaria.
 
 <h1>Início</h1>
 
-<p>Projeto desenvolvido para implementação na empresa aonde trabalho, que é um armazen. 
+<p>Projeto desenvolvido para implementação na empresa aonde trabalho, que é um armazém. 
   O Projeto consiste em um sistema de entrada de portaria e um sistema de check list de Empilhadeiras.
 
   Projeto foi desenvolvido em PHP linguagem que estou aprendendo, não fiz o projeto utilizando POO pois ainda estou aprendendo, e queria fixar coisas básicas.
