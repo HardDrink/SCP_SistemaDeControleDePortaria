@@ -1,6 +1,7 @@
 <?php
 include_once('/xampp/htdocs/Codigos/matrix/config/config.php');
 include ('/xampp/htdocs/Codigos/matrix/config/protect.php');
+include ('/xampp/htdocs/Codigos/matrix-copia/classes/listaramais.php');
 ?>
 
 <!DOCTYPE html>
@@ -69,11 +70,7 @@ include ('menulateral.php');
                                         <tbody>
                                             <?php
 
-                                                $conn = new mysqli(HOST, USER, PASS, BASE);
-
-                                                $result = mysqli_query($conn, "SELECT * from telefones ORDER BY nome");
-
-                                                while ($row = mysqli_fetch_assoc($result))
+                                                foreach (Listaramais::all() as $row)
                                                 {
 
                                                 $nome = $row ['nome'];
@@ -85,7 +82,6 @@ include ('menulateral.php');
                                                 print "</tr>";
 
                                                 }
-                                                $conn->close();
 
                                             ?>
                                             </tbody>
