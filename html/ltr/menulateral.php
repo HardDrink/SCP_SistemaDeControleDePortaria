@@ -15,7 +15,7 @@
                     <li class="sidebar-item"><a href="relatoriovisita.php" class="sidebar-link"><i
                                 class="mdi mdi-file-outline"></i><span class="hide-menu"> Relatório Visita
                             </span></a></li>
-                    <li class="sidebar-item"><a href="http://webmail.cragea.com.br/" class="sidebar-link" target="_blank"><i
+                    <li class="sidebar-item"><a href="xxxxxxxxx" class="sidebar-link" target="_blank"><i
                                 class="mdi mdi-gmail"></i><span class="hide-menu"> WebMail
                             </span></a></li>
                 </ul>

@@ -51,10 +51,10 @@ include ('menulateral.php');
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">Aviso</h5>
-                                <p>Bem vindo a Intranet <b>CRAGEA</b> São José dos Campos<br>
+                                <p>Bem vindo a Intranet <b>XXXXXX</b> São José dos Campos<br>
                         Estaremos implementando algumas páginas para facilitar a comunicão interna.<br>
                         Caso precise que alguma página ou função seja inserida aqui, entre em contato.<br>
-                        E-mail: <a href="mailto:fabio.galvao.sjc@cragea.com.br"> fabio.galvao.sjc@cragea.com.br</a><br>  
+                        E-mail: <a href="XXXXXXXX"> XXXXX</a><br>  
                             Ramais: <a>6828</a> e <a>6807</a><br>
 					</p>
                             </div>
