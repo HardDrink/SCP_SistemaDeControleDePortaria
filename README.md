@@ -30,10 +30,10 @@ Sistema de controle de portaria.
 
   <h1>Ferramentas Usadas</h1>
 
-  <a href="https://matrixadmin.wrappixel.com">Matrix Admin (Template Usado)</a>
-  <a href="https://datatables.net">Data Tables (Para as Tabelas)</a>
-  <a href="https://www.mysql.com">Mysql (Banco De Dados Usado)</a>
-  <a href="https://mpdf.github.io">MPDF (Não Consegui Fazer a Implementação No Sistema Mas Ainda Pretendo)</a>
+  <a href="https://matrixadmin.wrappixel.com">Matrix Admin (Template Usado)</a><br>
+  <a href="https://datatables.net">Data Tables (Para as Tabelas)</a><br>
+  <a href="https://www.mysql.com">Mysql (Banco De Dados Usado)</a><br>
+  <a href="https://mpdf.github.io">MPDF (Não Consegui Fazer a Implementação No Sistema Mas Ainda Pretendo)</a><br>
   <a href="https://php.com.br/22">Curso de PHP (Curso Qual eu estou fazendo e aprendendo)</a>
 
 
